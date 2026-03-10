@@ -1,9 +1,10 @@
 # Offline First-Aid Advice Assistant
 _Small Language Model Build Day (AWS × AGI House, NYC), 🥈 2nd Place_
 
-An on-device first-aid AI assistant designed to provide immediate emergency guidance without internet connectivity.
+An **on-device first-aid AI assistant** designed to provide immediate emergency guidance without internet connectivity.
 
 _*The overall explanation of the project can be found_ [here](https://docs.google.com/presentation/d/1zS5iHfKa873uBwA6A-LgpXBN-2WAJiXxrHC5Ox_uIa4/edit?slide=id.p#slide=id.p)! 
+<img width="750" height="480" alt="Image" src="https://github.com/user-attachments/assets/6fcdb71f-7265-4042-bb72-3b183171db95" />
 
 ---
 ## Motivation
@@ -12,9 +13,9 @@ However, emergency situations (e.g., mountains, disasters, remote areas) often o
 
 To address this limitation, we asked a key question:
 
-> "When does a Small Language Model (SLM) make more sense than a large cloud LLM?"
+> **"When does a Small Language Model (SLM) make more sense than a large cloud LLM?"**
 
-We identified offline first-aid guidance as a practical scenario where:
+We identified **offline first-aid guidance** as a practical scenario where:
 * low latency
 * edge deployment
 * offline inference
@@ -33,7 +34,7 @@ We built an on-device first-aid assistant optimized for fast and reliable emerge
 **Training Strategy**
 
 * LoRA-based parameter-efficient fine-tuning
-* structured prompts for concise, actionable first-aid instructions
+* structured prompts for **concise, actionable first-aid instructions**
 
 Training was performed on **AWS Trainium** infrastructure.
 
